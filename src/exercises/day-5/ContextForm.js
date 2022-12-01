@@ -1,9 +1,9 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import SignupForm from "../day-2-3/day-2-forms";
 
 export const UserContext = React.createContext();
 
-export const ContextForm = () => {
+export default function ContextForm() {
   const [toggle_state, setToggle] = useState(true);
 
   function handleClick() {
@@ -17,4 +17,4 @@ export const ContextForm = () => {
       </UserContext.Provider>
     </div>
   );
-};
+}

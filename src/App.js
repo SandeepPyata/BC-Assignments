@@ -1,9 +1,5 @@
 import React from "react";
-import { ContextForm } from "./exercises/day-5/ContextForm.js";
+import App6E from "./exercises/day-6-exercise/App6E";
 export default function App() {
-  return (
-    <div>
-      <ContextForm />
-    </div>
-  );
+  return <App6E />;
 }

@@ -7,28 +7,24 @@ displays a number on screen with two buttons ( +, - ).
   parent should be able to override default value 
   using as prop called defaultValue."
 */
-import React, { useState } from 'react';
-import { createRoot } from 'react-dom/client';
-
+import React, { useState } from "react";
 
 function Counter(props) {
-  let [count,setCount] = useState(props.number);
+  let [count, setCount] = useState(props.number);
 
-  function handleChange(event){
+  function handleChange(event) {
     const symbol = event.target.textContent;
-    if(symbol==='+')
-      setCount(count+1);
-    else
-      setCount(count-1);
+    if (symbol === "+") setCount(count + 1);
+    else setCount(count - 1);
   }
 
   const element = (
     <div>
       Number of clicks: {count} <br />
-      <button onClick={handleChange}>+</button> 
+      <button onClick={handleChange}>+</button>
       <button onClick={handleChange}>-</button>
     </div>
-  )
+  );
   return element;
 }
 

@@ -12,8 +12,7 @@ Values entered in the input fields should be stored in state.
 Error values should not be stored in state but should be calculated from above state.
 "*/
 
-import React, { useContext } from "react";
-import { useState } from "react";
+import React, { useState, useContext } from "react";
 import { UserContext } from "../day-5/ContextForm";
 
 function SignupForm() {
@@ -44,7 +43,6 @@ function SignupForm() {
   }
 
   const toggle_state = useContext(UserContext);
-  console.log("in form toggle", toggle_state);
   const username = toggle_state ? (
     <div>
       <label>Name</label>

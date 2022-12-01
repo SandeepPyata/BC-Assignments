@@ -5,16 +5,14 @@
 - Explain the function and importance of key prop in a list
 "
 */
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { useState } from 'react';
+import React from "react";
 
-function ListView(props){
-    const element = props.array.map((num)=>{
-        return <li key={num.toString()}>{num}</li>
-    });
+function ListView(props) {
+  const element = props.array.map((num) => {
+    return <li key={num.toString()}>{num}</li>;
+  });
 
-    return <ul>{element}</ul>;
+  return <ul>{element}</ul>;
 }
 
 export default ListView;

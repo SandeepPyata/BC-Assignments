@@ -1,0 +1,130 @@
+{
+  "superheroes": [
+    {
+      "name": "Bruce Wayne",
+      "alias": "Batman",
+      "powerLevel": 50,
+      "universe": "DC Comics",
+      "race": "Human"
+    },
+    {
+      "name": "Wade Wilson",
+      "alias": "Deadpool",
+      "powerLevel": 90,
+      "universe": "Marvel Comics",
+      "race": "Mutant"
+    },
+    {
+      "name": "Peter Parker",
+      "alias": "Spiderman",
+      "powerLevel": 70,
+      "universe": "Marvel Comics",
+      "race": "Human"
+    }
+  ],
+  "jokes": [
+    {
+      "jokes": {
+        "data": [
+          {
+            "id": 42,
+            "type": "general",
+            "setup": "If you see a robbery at an Apple Store...",
+            "punchline": "Does that make you an iWitness?"
+          },
+          {
+            "id": 60,
+            "type": "programming",
+            "setup": "A user interface is like a joke.",
+            "punchline": "If you have to explain it then it is not that good."
+          },
+          {
+            "id": 155,
+            "type": "general",
+            "setup": "Want to hear my pizza joke?",
+            "punchline": "Never mind, it's too cheesy."
+          },
+          {
+            "id": 282,
+            "type": "general",
+            "setup": "What's red and bad for your teeth?",
+            "punchline": "A Brick."
+          },
+          {
+            "id": 131,
+            "type": "general",
+            "setup": "How do you organize a space party?",
+            "punchline": "You planet."
+          },
+          {
+            "id": 249,
+            "type": "general",
+            "setup": "What does an angry pepper do?",
+            "punchline": "It gets jalapeño face."
+          },
+          {
+            "id": 19,
+            "type": "general",
+            "setup": "Did you hear about the two silk worms in a race?",
+            "punchline": "It ended in a tie."
+          },
+          {
+            "id": 34,
+            "type": "knock-knock",
+            "setup": "Knock knock. \n Who's there? \n Opportunity.",
+            "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+          },
+          {
+            "id": 99,
+            "type": "general",
+            "setup": "Did you hear that the police have a warrant out on a midget psychic ripping people off?",
+            "punchline": "It reads \"Small medium at large.\""
+          },
+          {
+            "id": 242,
+            "type": "general",
+            "setup": "What do you get when you cross a chicken with a skunk?",
+            "punchline": "A fowl smell!"
+          }
+        ],
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "cache-control": "private",
+          "content-length": "614",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*"
+          },
+          "method": "get",
+          "url": "https://official-joke-api.appspot.com/random_ten"
+        },
+        "request": {}
+      },
+      "id": 1
+    }
+  ]
+}
